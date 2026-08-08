@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quantum Technology - Web development, software engineering, design, and VPS hosting."
+    />
+    <title>Quantum Technology</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar">
+          <a class="brand" href="https://bendfortech.com">Bendfortech</a>
+          <button class="menu-toggle" aria-label="Open menu">☰</button>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="nav-btn" href="#contact">Create account</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Advanced digital technology</div>
+          <h1>Build modern websites, software, design systems and Virtual Private Server infrastructure.</h1>
+          <p>
+            Quantum delivers fast web development, custom software, creative design, and secure Virtual Private Server
+            hosting for businesses that need performance and reliability.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="primary-btn">Get started</a>
+            <a href="#services" class="secondary-btn">Explore services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>99.99%</strong>
+              <span>Uptime</span>
+            </div>
+            <div class="stat">
+              <strong>24/7</strong>
+              <span>Support</span>
+            </div>
+            <div class="stat">
+              <strong>30+</strong>
+              <span>Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-stack">
+          <div class="visual-card visual-card-top">
+            <div class="eyebrow">Virtual Private Server</div>
+            <div class="visual-grid">
+              <div class="visual-block"></div>
+              <div class="visual-block alt"></div>
+            </div>
+          </div>
+          <div class="visual-card">
+            <div class="eyebrow">Design system</div>
+            <div class="visual-grid">
+              <div class="visual-block"></div>
+              <div class="visual-block alt"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="section-title">
+          <div class="label">What we do</div>
+          <h2>Complete digital services for web, software and cloud hosting.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Web development</h3>
+            <p>Fast, responsive websites with clean UX and strong SEO foundations.</p>
+          </article>
+          <article class="service-card">
+            <h3>Software engineering</h3>
+            <p>Custom apps, APIs and business tools built for performance and growth.</p>
+          </article>
+          <article class="service-card">
+            <h3>Creative design</h3>
+            <p>Modern UI/UX and brand visuals that make your digital presence memorable.</p>
+          </article>
+          <article class="service-card">
+            <h3>VPS hosting</h3>
+            <p>Secure virtual servers with SSD storage, scalability and reliable networking.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="solutions">
+        <div class="section-title">
+          <div class="label">Solutions</div>
+          <h2>Designed for teams that need reliability, speed and polished solutions.</h2>
+        </div>
+        <div class="solution-grid">
+          <article class="solution-card">
+            <h3>Startup launch pad</h3>
+            <p>Launch quickly with secure hosting, modern design and a strong digital foundation.</p>
+          </article>
+          <article class="solution-card">
+            <h3>Enterprise systems</h3>
+            <p>Robust backend workflows and integrations for growing organizations.</p>
+          </article>
+          <article class="solution-card">
+            <h3>Design refresh</h3>
+            <p>Modernize your brand with improved UX, layout upgrades and stronger conversions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-card">
+          <div class="label">Trusted by growth-focused teams</div>
+          <h3>We help businesses scale with secure infrastructure and polished products.</h3>
+          <p>
+            From landing pages to enterprise software and cloud hosting, we create digital experiences
+            that are efficient, scalable and visually compelling.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="label">Why us</div>
+          <p>Reliable delivery, modern implementation, and support that keeps your systems running.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-card">
+        <div>
+          <div class="label">Ready to build?</div>
+          <h3>Let's launch your next project together.</h3>
+          <p>Contact us for web development, software solutions, design services and VPS hosting.</p>
+        </div>
+        <a href="#" class="primary-btn">Talk to us</a>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>© 2026 Quantum Technology</p>
+      <p>Web • Software • Design • VPS</p>
+    </footer>
+
+    <script>
+      const menuButton = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      if (menuButton && navLinks) {
+        menuButton.addEventListener('click', () => {
+          navLinks.classList.toggle('open');
+        });
+      }
+    </script>
+  </body>
+</html>
