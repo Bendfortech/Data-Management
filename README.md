@@ -1,6 +1,6 @@
 # Data-Management
 
-Full management functionality using PHP and the React framework.
+Full management functionality using PHP and the React framework of https://bendfortech.com
 
 ## Project structure
 
